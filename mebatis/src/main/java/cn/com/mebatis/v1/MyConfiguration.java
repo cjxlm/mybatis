@@ -14,7 +14,7 @@ public class MyConfiguration
     
     static 
     {
-        sqlMappings = ResourceBundle.getBundle("sql");
+        sqlMappings = ResourceBundle.getBundle("sqlV1");
         
     }
     
