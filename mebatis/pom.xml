@@ -33,4 +33,21 @@
 		<version>1.16.18</version>
 	</dependency>
   </dependencies>
+  
+  <build>
+        <finalName>mebatis</finalName>
+        <!-- 加载项目运行环境版本 -->
+        <plugins>
+            <!-- Compiler 插件, 设定JDK版本 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
